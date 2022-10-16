@@ -20,6 +20,6 @@ export { html } from "https://deno.land/x/html@v1.2.0/mod.ts";
 export { join } from "https://deno.land/std@0.159.0/path/mod.ts";
 export { Marked } from "https://deno.land/x/markdown@v2.0.0/mod.ts";
 export { createServerTimingMiddleware } from "https://deno.land/x/server_timing@0.0.4/mod.ts";
-export { setup, tw } from "https://cdn.esm.sh/twind@0.16.16?target=deno"
-export { virtualSheet, getStyleTag } from "https://cdn.esm.sh/twind@0.16.16/sheets?target=deno"
-export { css, apply } from "https://cdn.esm.sh/twind@0.16.16/css?target=deno"
+export { setup, tw } from "https://esm.sh/twind@0.16.17"
+export { virtualSheet, getStyleTag } from "https://esm.sh/twind@0.16.17"
+export { css, apply } from "https://esm.sh/twind@0.16.17"
